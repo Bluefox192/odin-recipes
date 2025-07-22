@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #154b1ac4;
+
+}
+body {
+    background: var(--bg-color);
+
+}
+p {
+    color: aliceblue;
+}
+a {
+    color: aliceblue;
+}
+.img {
+    animation: ease-in 2s;
+}
+.license {
+
+}
+.license p{
+    color: black;
+}
