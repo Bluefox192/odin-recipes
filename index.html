@@ -2,19 +2,44 @@
 <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles.css"
+    <link rel="stylesheet" href="src/styles.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <head>
         <title>Home</title>
     </head>
     <body>
         <h1>Odin Indonesian Recipes</h1>
         <p>This webpage is for someone that needs indonesian recipes</p>
-        <img src="recipes/tempe-penyet/src/images/tempe-penyet.png" width="310" height="310"><br>
-        <a href="recipes/tempe-penyet/tempe-penyet.html">Tempe Penyet Recipes</a><br>
-        <img src="recipes/nasi-goreng/src/images/nasi-goreng.png" width="310" height="310"><br>
-        <a href="recipes/nasi-goreng/nasi-goreng.html">Nasi Goreng Recipes</a><br>
-        <img src="recipes/martabak-mie/src/images/martabak-mie.png" width="310" height="310"><br>
-        <a href="recipes/martabak-mie/martabak-mie.html">Martabak Mie Recipes</a><br>
+        <nav>
+        </nav>
+        <section class="penyet">
+        <div class="tempe">
+            <img src="recipes/tempe-penyet/src/images/tempe-penyet.png" width="310" height="310" alt="tempe-penyet" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="200"><br>
+            <div data-aos="fade-right" data-aos-duration="1800" data-aos-delay="150" data-aos-offset="200">
+               <a href="recipes/tempe-penyet/tempe-penyet.html">Tempe Penyet Recipes</a><br>
+            </div>
+        </div> 
+        </section>
+        <section class="goreng">
+        <div class="nasi">
+            <img src="recipes/nasi-goreng/src/images/nasi-goreng.png" width="310" height="310" alt="nasi-goreng" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="200"><br>
+            <div data-aos="fade-right" data-aos-duration="1800" data-aos-delay="150" data-aos-offset="100">
+               <a href="recipes/nasi-goreng/nasi-goreng.html">Nasi Goreng Recipes</a><br>
+            </div>
+        </div>
+        </section>
+        <section class="martabak">
+        <div class="mie">
+            <img src="recipes/martabak-mie/src/images/martabak-mie.png" width="310" height="310" alt="martabak-mie" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="200"><br>
+            <div data-aos="fade-right" data-aos-duration="1800" data-aos-delay="150" data-aos-offset="50">
+               <a href="recipes/martabak-mie/martabak-mie.html">Martabak Mie Recipes</a><br>
+            </div>
+        </div>
+        </section>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     </body>
     <footer>
     </footer>

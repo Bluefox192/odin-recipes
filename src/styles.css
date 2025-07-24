@@ -1,23 +1,84 @@
 :root {
-    --bg-color: #154b1ac4;
+    --bg-color: #31ad3dc4;
 
 }
 body {
     background: var(--bg-color);
-
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 36px;
+    background-color: rgb(60, 240, 60);
+    margin-left: 45px;
+    margin-right: 45px;
 }
 p {
     color: aliceblue;
+    font-size: 24px;
+    font-weight: 600;
 }
-a {
-    color: aliceblue;
+.tempe{
+    padding: 10px;
+    animation: floatGlow 6s infinite ease-in-out;
 }
-.img {
-    animation: ease-in 2s;
+@keyframes floatGlow {
+      0% { transform: translateY(10px) translateX(0px); }
+      50% { transform: translateY(0px) translateX(10px); }
+      100% { transform: translateY(10px) translateX(0px); }
+    }
+@keyframes floatGlow1 {
+      0% { transform: translateY(0px) translate(0px); }
+      50% { transform: translateY(10px) translateX(-10px); }
+      100% { transform: translateY(0px) translateX(0px); }
+    }
+@keyframes floatGlow2 {
+      0% { transform: translateY(15px) translateX(0px); }
+      50% { transform: translateY(0px) translateX(10px); }
+      100% { transform: translateY(15px) translateX(0px); }
+    }
+.tempe a{
+    color: white;
+    font-size: 26px;
 }
-.license {
+.nasi{
+    animation: floatGlow1 6s infinite ease-in-out;
+    padding: 10px;
+}
+.nasi a{
+    color: white;
+    font-size: 26px;
+}
+.mie{
+    padding-bottom: 36px;
+    animation: floatGlow2 6s infinite ease-in-out;
+}
+.mie a{
+    color: white;
+    font-size: 26px;
+}
+section.penyet{
+    margin: auto;
+    margin-left: 100px;
+    width: 340px;
+    height: 370px;
+    position: fixed;
+}
+section.goreng{
+    margin-left: 500px;
+    margin-bottom: 100px;
+    width: 340px;
+    height: 370px;
+    position: fixed;
 
 }
-.license p{
-    color: black;
+section.martabak{
+    margin-left: 100px;
+    margin-top: 400px;
+    margin-bottom: 00px;
+    width: 340px;
+    height: 370px;
+    position: fixed;
+
 }
